@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  </head> 
+<body> 
+  <div class="navbar"> 
+   <p id="logo"><strong>Pihu_Cares</strong></p> 
+  </div> 
+  <div class="space"> 
+  </div> 
+  <div class="pros"> 
+   <h1 id="adv">Our Pros</h1> 
+   <ul> 
+    <li>Sanitized equipments</li> 
+    <li>Compulsury Use of N-95 Masks</li> 
+    <li>Compulsory Use of Gloves</li> 
+    <li>Trained and Professional staff</li> 
+   </ul> 
+  </div> 
+  <div class="men"> 
+   <div class="top"> 
+    <p id="sub"> For Men</p> 
+    <button id="btn">Show all</button> 
+   </div> 
+   <div class="services"> 
+    <div class="box">
+      Haircut 
+     <img id="image" src="images/hc.jpg" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+    <div class="box">
+      Beard 
+     <img src="images/beard.jpg" id="beard" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+    <div class="box">
+      Facial 
+     <img src="images/mens-facial.jpg" id="facial" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+    <div class="box">
+      Massage 
+     <img src="images/massage.jpg" id="massage" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <!--women--> 
+  <div class="men"> 
+   <div class="top"> 
+    <p id="women"> For Women</p> 
+    <button id="btnb">show all</button> 
+   </div> 
+   <div class="services"> 
+    <div class="boxes">
+      Threading 
+     <img id="wimage" src="images/t.jpg" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+    <div class="boxes">
+      Haircut 
+     <img src="images/lhc.jpg" id="wbeard" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+    <div class="boxes">
+      Facial 
+     <img src="images/lf.jpg" id="wfacial" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+    <div class="boxes">
+      Massage 
+     <img src="images/lm.jpg" id="wmassage" alt="image"> 
+     <button type="submit" class="btn btn-warning">Add to Cart</button>
+    </div> 
+   </div> 
+  </div> 
+ 
+<script type="text/javascript" id="dcoder_script">$("#btn").on("click",function(){
+  $(".men").css("height","3000px");
+  $("#image").css({'height':'450px',
+    'width':'99%'
+    });
+  $("#beard").css({'height':'500px',
+    'width':'99%'
+    });
+      $("#facial").css({'height':'500px',
+    'width':'99%'
+    });
+    $("#massage").css({'height':'500px',
+    'width':'99%'});
+    $(".services").css("flex-direction","column");
+      $(".box").css( {"font-size":"100px","margin":"40px"})
+$(".services").css("justify-content","space-around")
+        })
+      
+     $("#btn").toggleClass(".row")</script></body></html>
